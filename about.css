@@ -1,0 +1,235 @@
+
+.o22{
+    font-family: Dancing Script;
+    font-weight: bold;
+    word-spacing: 0.25em;
+        font-size: 54px;
+    position: relative;
+    
+   
+   
+}
+.o{
+   
+}
+.hh{
+    
+}
+.hh img{
+    margin-top: -80px;
+    width: 100%;
+}
+.mnu{
+    height: 100px;
+    width: 80%;
+    margin-left: 100px;
+   /* background-color: lightgray;*/
+    position: relative;
+    margin-top: -50px;
+}
+.submn{
+    float: left;
+    height: 70px;
+    width: 160px;
+    /*background-color: antiquewhite;*/
+    margin-left: 130px;
+    font-size: 34px;
+     font-family: Anton;
+    letter-spacing: 0.10em;
+}
+/***********************************/
+.abtm{
+    height: 550px;
+    width: 1300px;
+    margin-left: 80px;
+   
+   
+}
+.abti{
+    height: 500px;
+    width: 35%; 
+    
+     border: 15px solid lightgray;
+    float: left;
+}
+.abtii{
+  height: 500px;
+    width: 60%; 
+   
+    float: left;
+}
+.abti img{
+    margin-top: 15px;
+}
+
+.ab{
+    margin-top: 20px;
+    height: 400px;
+    width: 90%;
+   
+   
+   padding: 20px;
+    margin-left: 60px;
+}
+.d{
+    font-family: Dancing Script;
+    font-weight: bold;
+    font-size: 44px;
+}
+.ab p{
+    font-size: 24px;
+}
+.hd{
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    color: darkolivegreen;
+   
+}
+/******************/
+.why{
+    width: 1400px;
+    height: 450px;
+   
+    margin-left: 50px;
+}
+.why1{
+    height: inherit;
+    width: 466px;
+    
+    float: left;
+}
+.why11 b{
+    font-size: 34px;
+    margin-left: 80px;
+    
+}
+.why11 p{
+   
+    
+    padding-left: 50px;
+    font-size: 24px;
+    padding-right: 10px;
+}
+.why111 b{
+    font-size: 34px;
+    margin-left: 80px;
+    
+}
+.why111 p{
+   
+    
+    padding-left: 50px;
+    font-size: 24px;
+    padding-right: 17px;
+}
+.why11{
+    height: 225px;
+   
+    width: inherit;
+}
+.why111{
+    height: 225px;
+   
+    width: inherit;
+}
+.why2{float: left;
+    height: inherit;
+    width: 466px;
+   
+}
+.why3{float: left;
+    height: inherit;
+    width: 466px;
+    
+}
+.tem{
+    width: 1400px;
+    height: 500px;
+    background-image: url(pics/95978752-plain-light-color-background.jpg);
+    margin-left: 70px;
+}
+.tem1{
+    height: 450px;
+    width: 280px;
+    
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    /*border: 4px solid black;*/
+}
+.tem1 img{
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.t{
+    height: 70px;
+    width: 100px;
+    background-color: palegoldenrod;
+    position: relative;
+    font-size: 34px;
+   margin-left: 150px;
+    margin-top: -30px;
+}
+.mnu a{
+    text-decoration: none;
+    color: black;
+}
+.mnu a:hover{
+    color: darkcyan;
+    letter-spacing: 0.25em;
+}
+.tem1 img:hover{
+     transform: scale(1.2);
+    cursor: pointer;
+    background: linear-gradient(to right, red, yellow);
+}
+.sale hr{
+    width: 1300px;
+}
+.d:hover{
+    color: red;
+    cursor: pointer;
+}
+.foot{
+    width: 88%;
+    margin-left: 80px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    height: 40px;
+    font-size: 24px
+}
+.sale{
+    
+    width: 80%;
+    margin-left: 80px;
+    height: 490px;
+}
+#parallax1{
+   
+    height: 565px;
+    width: 100%;
+background-position: left;
+background-size: cover;
+background-attachment: fixed;
+}
+#parallax2{
+  
+     height:465px;
+     width: 100%;
+ background-position: left;
+ background-size: cover;
+ background-attachment: fixed;
+
+
+}
+#parallax3{
+  
+     height: 465px;
+     width: 100%;
+ background-position: left;
+ background-size: cover;
+ background-attachment: fixed;
+}

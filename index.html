@@ -1,0 +1,426 @@
+<html>
+    <head>
+        <title>The Hobby House</title>
+         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krona One">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+         
+         <script>
+function myFunction() {
+  var x, text,y;
+var r = /^[6-9]{1}[0-9]{9}$/;
+ 
+  x = document.getElementById("numb").value;
+
+  if ( r.test(x)==false) {
+    text = "enter correct number";
+       document.getElementById("errcn").style.color = "red";
+      document.getElementById("errcn").style.fontSize = "13px";
+  } else {
+    text = "Input OK";
+       document.getElementById("errcn").style.color = "green";
+      document.getElementById("errcn").style.fontSize = "13px";
+  }
+  document.getElementById("errcn").innerHTML = text;
+   
+ 
+   ///////////////////////////////////////////////
+    
+
+}
+       
+           
+</script>
+ <!----------------------validations-------------------------------------------->
+  <script>
+        function checkuser()
+      {
+          
+        var  y = document.getElementById("nm").value;
+    if (y=="" ) {
+    text = "Input not valid";
+         document.getElementById("errnm").style.color = "red";
+         document.getElementById("errnm").style.fontSize = "13px";
+  } else {
+    text = "Input OK";
+       document.getElementById("errnm").style.color = "green";
+       document.getElementById("errnm").style.fontSize = "13px";
+  }
+    document.getElementById("errnm").innerHTML = text;
+   
+      }
+        
+        </script>
+   <script>
+             function CheckPassword() 
+{ 
+      var r = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,9}$/;
+    var z;
+    z = document.getElementById("pss").value;
+
+if(r.test(z) == false) 
+{ 
+   // text = "Input not valid";
+document.getElementById("errps").innerHTML = "minimum 6 max 8,no special char,include at least one upper case letter,one lower case letter,one numeric digit.";
+    document.getElementById("errps").style.fontSize = "13px";
+    document.getElementById("errps").style.color = "red";
+
+}
+else
+{ 
+    text = "correct password";
+document.getElementById("errps").innerHTML = text;
+    document.getElementById("errps").style.fontSize = "13px";
+    document.getElementById("errps").style.color = "green";
+
+}
+}
+        </script>
+        <script>
+        function dosubc(){
+       var email=     document.getElementById("em").value;
+
+        alert("Subscribe succeswsfully...."+ email);
+            document.getElementById("em").value="";
+        
+        }
+        
+        </script>
+        
+        <!------------------------------------------------------------->
+        <script>
+        function docheck()
+            {
+                var  y = document.getElementById("nm").value; 
+              var  z = document.getElementById("pss").value;
+             var    x = document.getElementById("numb").value;
+                if(y==""||x==""||z=="")
+                    alert("please fill the required information");
+                else{
+                    alert("signup successfully!! Welcome"+y);
+                }
+            }
+        
+        </script>
+      
+        <script>
+        var loader=document.querySelector(".loader");
+            window.addEventListener("load",vanish);
+            function vanish()
+            {
+                loader.classList.add("disappear");
+            }
+        
+        </script>
+        <style>
+        .topd
+		{
+			padding: 5px;
+			background-color: gray;
+			color: white;
+			font-size: 25px;
+			width:42px;
+			height: 40px;
+			text-align: center;
+			position: fixed;/*absolute*/
+			/*right:5%;*/
+			/*bottom: 5%;*/
+			top:90%;
+			left:94%;
+			border-radius: 50%;
+		}
+            #loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #21242d  no-repeat center;
+                background-image: url('https://www.canva.com/design/DAEFQs_mXsI/vbYjBiRJN8X7pM-dInQJCA/view?utm_content=DAEFQs_mXsI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink');
+	z-index: 999;
+}
+        </style>
+        <!---------------------------------timer-------------------------------------->
+      <script>
+      var loader;
+
+function loadNow(opacity) {
+    if (opacity <= 0) {
+        displayContent();
+    } else {
+        loader.style.opacity = opacity;
+        window.setTimeout(function() {
+            loadNow(opacity - 0.15);
+        }, 100);
+    }
+}
+
+function displayContent() {
+    loader.style.display = 'none';
+    document.getElementById('content').style.display = 'block';
+}
+//////////////////////////////////////////////////////////////over///////////////////////
+          
+          
+          
+          
+document.addEventListener("DOMContentLoaded", function() {
+    loader = document.getElementById('loader');
+    loadNow(1);
+});
+    </script> 
+    <!---------------------------------------------------------------------------------->
+     <script>
+
+var countDownDate = new Date("Aug 24, 2020 22:37:25").getTime();
+
+// updating //
+var x = setInterval(function() {
+
+  //todays date
+  var now = new Date().getTime();
+    
+ 
+  var distance = countDownDate - now;
+    
+  // calculation
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("demo").innerHTML =  hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+        <!---------------------------------timer-------------------------------------->
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    <body id="topp">
+       
+       <div id="loader"></div>
+      <a href="#topp"><div class="topd" >&#8613;</div></a>
+       
+       
+        <div class="top" style="position: fixed">
+           <br>
+            <center ><span class="a" >FREE SHIPPING ON ORDER OVER RS650 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="demo"></span></span></center>
+            <br>
+             
+        </div>
+        <!------------------------------------------------->
+       
+      
+           <div class="b">
+          
+            <div class="b1">
+               The Barn
+            </div>
+            <div class="b2">
+              <a href="about.html"> About Us</a>
+            </div>
+             <div class="b2">
+               <a href="recp.html"> Recipes</a>
+            </div>
+            <div class="b2">
+              <a href="order.html"> Order</a>
+            </div>
+            <div class="b2">
+                <a href="#a"> Log in</a>
+            </div>
+        </div>
+        <!----------------------------------------------------------->
+        <br>
+        <div class="top-p">
+           <div class="p1">
+              
+                <img src="pics/image.jpg"height="462px" width="832px">
+               
+           </div>
+           <div class="p2">FOOD YOU CAN ALWAYS
+           COUNT <br>ON . . . . 
+          
+           </div>
+            <span class="pp">HOMEMADE FRESH CAKES AND PASTRIES</span><br><br>
+         <span class="btn"><a href="order.html">Shop Now</a></span>
+        </div>
+      <!----------------------------------------------------------->
+     <br><br><br><br> <div class="hd1">
+          <span class="hd"><center>OUR SPECIAL</center></span>
+      </div>
+      <br>
+ <!--    <div class="spec">
+        <div class="spe">
+            <p>
+               <img src="pics/BlackForestCakeSlice_e448f031-eec5-4abc-883d-14db5c6b3fe2_1024x1024.jpg" height="300px" width="450px;">
+                
+            </p>
+        </div> 
+         <div class="spee">
+           
+            
+        </div>
+         <div class="speee">
+            <p>
+               <img src="pics/low-fat-whole-wheat-vegan-waffles-3376600-hero-01-8115da44f47043f29f22c0a23547c911.jpg" height="300px" width="450px;">
+                
+            </p>
+        </div>  
+      </div>-->
+      <!--<div class="hdd">
+          <div class="hdd1"></div>
+          <div class="hdd2"></div>
+      </div>
+        <div class="hdd">
+          <div class="hdd2"></div>
+          <div class="hdd1"></div>
+      </div>--><div class="hh"><div class="thm"><div class="thumbnail"><div class="overlay"><b>ButterMilk CheeseCake</b><br>
+      <p>A luscious chococake served with spicy blueberry compote</p></div></div></div>
+      
+      <div class="thm"><div class="thumbnaill"><div class="overlay"><b>Mississippi Muo Pie
+      </b><br><p>Rightly termed as heaven on earth,perfect blend of goocy chocolate on bed of crust</p></div></div></div>
+      
+      <div class="thm"><div class="thumbnailll"><div class="overlay"><b>Chocolate Tart</b><br>
+      <p>A divine melt in the mouth,tart filled with chocolaty goodness</p></div></div></div>
+</div>
+       <!-------------div class="txt"><center>WANNA TRY OUR SPECIALS?<span class="btn"><a href="order.html">Shop Now</a></span></center></div>-->
+       
+      <!-------------------------------------------------------->
+        <br><br><br><br> <div class="hd1">
+          <span class="hd"><center><u>RECIPES TO TRY AT HOME</u></center></span>
+      </div>
+     <div class="rec">
+        <span class="recc">
+           <br>
+            <p style="font-family:Roboto ;">&nbsp;&nbsp; For the people who can't visit us due to the pandemic,here are the recipes  &nbsp;&nbsp;for some of our famous desserts.WAKE UP YOUR INNER CHEF and start &nbsp;&nbsp;with what desserts are you in mood for!</p>
+        </span>
+     </div><br>
+     <div class="gff">
+         <div class="gf">
+             <img src="pics/1-dd-Whipped-Mocha-Tart-25.gif" height="400px" width="380px">
+         </div>
+         <div class="gfff">
+            <br>
+             <p>“I hate the notion of a secret recipe. Recipes are by nature derivative and meant to be shared - that is how they improve, are changed, how new ideas are formed. To stop a recipe in it's tracks, to label it "secret" just seems mean.”
+             <br><br><br><b><u><span style="font-size: 24px">― Molly Wizenberg</span></u></b></p>
+             <br>
+             <br><span class="btn"><a href="recp.html">Recipes</a></span>
+         </div>
+     </div><br>
+    
+     <div class="grid-container">
+	   <div class="grid-item">
+	     <img src="pics/e46870437e82cae7696523b499770f9d_f2883.jpg" height="250px" width="250px">
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/creamy-red-velvet-cake_1.webp" height="250px" width="250px">
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/Vegan%20Chocolate%20Pudding-792438-edited.jpg"height="250px" width="250px" >
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/lemon-pudding.jpg" height="250px" width="250px">
+	   </div>
+	  </div>
+	  <div class="grid-container">
+	   <div class="grid-item">
+	     <img src="pics/p-chocolate-almond-cake-2-kg--76665-m.webp" height="250px" width="250px">
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/IMG-20200804-WA0063.jpg" height="250px" width="250px">
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/low-fat-whole-wheat-vegan-waffles-3376600-hero-01-8115da44f47043f29f22c0a23547c911.jpg"height="250px" width="250px" >
+	   </div>
+	   <div class="grid-item">
+	     <img src="pics/IMG-20200804-WA0069.jpg" height="250px" width="250px">
+	   </div>
+	  </div>
+	  <br><br>
+	  <!------------------------------------------------>
+	  
+	  <!------------------------------------------------>
+	  
+    <br>
+     <!------------------------------------------------------------------------------------------------------------>
+    <center><hr style="width: 80%;background-color: #576855;height: 4px"></center><br>
+    <div class="fot">
+        <div class="fo"><h1>CONTACT</h1>
+        <p>123-456-7890 <br>
+INFO@MY-DOMAIN.COM<br></p><br>
+       <div class="contact-info">
+		<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+		<a href="https://www.linkedin.com/in/muskan-goyal-b33456190" class="fa fa-linkedin"></a>
+		<a href="https://www.instagram.com/goyal_muskan_0077" class="fa fa-instagram"></a>
+		</div>
+		<div class="contact-info"><br>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="enter email"id="em"><br><br>
+		<button type="submit"  value="subscribe" id="bt" onclick="dosubc();">Subscribe</button>
+		</div> 
+        </div>
+        
+        
+        <div class="fo1" id="a">
+           <Center> <h1>Login form</h1>
+      
+           </Center><br><center><img src="pics/download%20(1).png"height="110px" width="120px"></center>
+          <center>
+              
+<table>
+   <tr>
+       <td colspan="2">
+          
+           
+       </td>
+   </tr>
+    <tr><td>Name:</td>
+    <td> <input type="text" placeholder="Your full name" class="gg" id="nm" required onblur="checkuser();"><br/> </td>
+    <td><span id="errnm">*</span></td></tr>
+    <tr><td>Password:</td>
+    <td> <input type="Password" placeholder="should be strong"class="gg" id="pss"  required onblur="CheckPassword();"><br/> </td><td><span id="errps">*</span></td></tr>
+
+<tr><td>Contact:</td>
+    <td> <input type="text" placeholder="xxx-xxx-xxxx"class="gg" id="numb" required  onblur="myFunction()"><br/> </td><td><span id="errcn">*</span></td></tr>  
+<tr><td>Address:</td>
+    <td> <input type="text"placeholder="not more than 100 words"class="gg" required><br/> </td><td><!--<span id="errad">*</span>--></td></tr> 
+
+<tr>
+    <td colspan="2"><center><br><button class="bn" onclick="docheck();">Signup</button></center> </td>
+</tr>
+               </table>
+            
+          </center>
+        </div>
+       
+    </div>
+	  <br><br><br><br><br><br>
+ <center><h3 style="color: gray">&copy;THE BARN Presenting 2020</h3></center><br><br>  
+   <!---------------------------->
+   <script>
+        
+        function dodis() {
+  document.getElementById("show").style.display = "block";
+}
+        
+        </script>
+        <!----------------------------------------->
+      
+    </body>
+</html>

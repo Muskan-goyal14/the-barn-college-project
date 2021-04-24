@@ -1,0 +1,460 @@
+body{
+   
+}
+#demo{
+  font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: darkgray;
+}
+.a{
+  
+    font-family: Montserrat;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+}
+.b{
+   
+    height: 150px;
+    width: 80%;
+     padding-top: 100px;
+   margin-left: 250px;
+    
+}
+.b1{
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    border: 8px solid black;
+    font-family: Krona One;
+    font-size: 34px;
+    padding: 15px;
+    float: left;
+  
+}
+.b2{
+   
+     height: 40px;
+    width: 150px;
+    float: left;
+      padding-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    font-family:  Montserrat;
+    
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  padding: 3px;
+  justify-content: center;
+}
+.grid-item {
+  padding: 10px;
+  text-align: center;
+    float:left;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+/************************************/
+.top-p{
+    
+    height: 470px;
+    width: 1300px;
+    margin-left: 100px;
+}
+.p1{
+    float: left;
+}
+.pp{
+     font-family: Montserrat;
+    margin-left: 10px;
+    position: relative;
+}
+.grid-item img:hover
+{
+    transform: scale(1.1);
+    cursor: grabbing;
+ margin-top: 5px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+.b a{
+    text-decoration: none;
+    color: black;
+}
+.b2:hover{
+    font-weight: bold;
+    
+    font-size: 25px;
+}
+.btn{
+    height: 90px;
+    width: 230px;
+   
+   border: 3px solid black;
+    font-size: 39px;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: gray;
+    
+}
+.p2{
+    float: left;
+    font-family: Anton;
+    position: relative;
+    margin-left: -220px;
+    margin-top: 120px;
+   letter-spacing: 0.03em;
+    font-size: 55px;
+    opacity: 0.7;
+}
+/***********************************/
+
+.hd{
+    color: darkolivegreen;
+    font-size: 44px;
+   
+     font-family: Krona One;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+}
+.rec{
+     width: 60%;
+         margin-left: 250px;
+    height: 170px;
+    
+}
+.rec .recc{
+    
+    
+   
+    font-size: 24px;
+  word-spacing: 0.25em;
+}
+.gfff{width: 50%;
+    height: inherit;
+   
+    float: left;
+    
+}
+.gfff p{
+    padding: 20px;
+    
+     font-family: Montserrat;
+    word-spacing: 0.25em;
+}
+#show{
+    display: none;
+}
+div#load_screen{
+    background:  #000;
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    width: 100px;
+    height: 1600px;
+}
+div#load_screen > div#loading{
+    
+    color: #fff;
+    width: 120px;
+    height: 24px;
+    margin: 300px auto;
+}
+.gf{
+    width: 50%;
+    height: inherit;
+   
+    float: left;
+}
+.gff{
+    width: 60%;
+    margin-left: 250px;
+    height: 400px;
+   
+}
+.hd1{
+    height: 90px;
+    width: 80%;
+         margin-left: 100px;
+    
+}
+.hdd{
+     height: 300px;
+    width: 60%;
+         margin-left: 200px;
+    background-color: antiquewhite;
+}
+.hdd1{
+   height: 300px;
+    width: 50%;  
+     background-color: beige;
+    float: left;
+}
+.hdd2{
+   height: 300px;
+    width: 50%;  
+     background-color:rebeccapurple;
+    float: left;
+}
+.spec{
+    margin-left: 100px;
+    height: 600px;
+    width: 80%;
+   
+}
+.spe{
+    height: 300px;
+    width: 37%;
+    margin-left: 10px;
+     box-shadow: 3px 3px 5px 6px #ccc;
+    background-color: white;
+}
+.spee{
+    height: 300px;
+    width: 37%;
+    margin-left: 300px;
+    position: relative;
+     background-color: white;
+    margin-top:-50px; 
+     box-shadow: 3px 3px 5px 6px #ccc;
+}
+.spe img{
+    float: left;
+}
+.speee{
+     box-shadow: 3px 3px 5px 6px #ccc;
+     height: 300px;
+     background-color: white;
+    width: 37%;
+      position: relative;
+   border: 1px solid #ccc;
+     margin-top:-510px; 
+     margin-left: 700px;
+    
+}
+.hh{
+   height: 400px;
+   margin-left: 200px;
+  width: 80%;
+    padding-right: 20px;
+    
+    
+}
+.thm{
+    height: 400px;
+    width: 320px;
+   
+    padding: 20px;
+    float: left;
+}
+/******************************/
+.thumbnail {
+  background-image: url(pics/Orange-Buttermilk-Cake-1-sm-final.jpg);
+  height: 300px;
+  width: 300px;
+    float: left;
+   background-size: cover;
+   
+}
+.thumbnailll {
+  background-image: url(pics/chocolatetartwithwhi_87928_16x9.jpg);
+  height: 300px;
+  width: 300px;
+    float: left;
+    background-size:cover;
+}
+.thumbnaill {
+  
+  height: 300px;
+  width: 300px;
+    float: left;
+     background-size: 300px 300px;
+    background-image: url(pics/Mississippi-Mud-Pie-4-x-6.jpg);
+    
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: 0.8s;
+  font-size: 26px;
+  color: #fff;
+}
+.overlay p{
+    padding: 20px;
+}
+.overlay b{
+    font-family: Lobster;
+    padding: 10px;
+    text-decoration-style: dashed !important;
+    color: yellow !important;
+}
+.overlay:hover {
+  opacity: 0.8;
+}
+.txt{
+    
+    height: 80px;
+    font-size: 34px;
+    width: 80%;
+    
+    
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.contact{
+	width: 80%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.contact-info #em{
+    margin-left: 70px;
+    height: 30px;
+    width: 250px;
+}
+.contact-info #bt{
+    margin-left: 80px;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+}
+.contact-info{
+	float: right;
+	width: 100%;
+    margin-left: 50px;
+}
+.contact-info a{
+    margin-left: 50px;
+}
+button{
+	width: 200px;
+	height: 30px;
+	padding-bottom: 20px;
+	background-color: olive;
+    border: 50px;
+    border-radius: 5px;
+border: 1px solid black;	
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fot{
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+    
+}
+.fo{
+    height: 350px;
+    width: 45%;
+  
+    float: left;
+    margin-top: 15px;
+}
+.rating .fa{
+    float: left;
+    
+}
+.fo1{margin-top: 15px;
+    height: 420px;
+    width: 45%;
+  
+    float: left;
+}
+.fo2{
+     margin-top: 15px;
+    height: 350px;
+    width: 25%;
+    
+    float: left;
+}
+.bn{
+    width: 160px;
+    height: 40px;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+.bn:hover{
+    background-color: darkgreen;
+    color: white;
+    cursor: grabbing;
+}
+.fo h1{
+    text-align: center;
+    
+}
+.fo1 .gg{
+    height: 27px;
+    width: 200px;
+    padding-left: 8px;
+}
+.vl{
+    width: 2%;
+    height: inherit;
+    background-color: black;
+}
+
+.fo1 table{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.fo p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+}

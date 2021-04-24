@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hh{
+    height: 750px;
+   width: 100%;
+}
+.top{
+    height: 60px;
+    width: 600px;
+   
+    margin-left: 800px;
+    position: relative;
+    margin-top: -740px;
+}
+.top1{
+    height: inherit;
+    width: 300px;
+    float: left;
+   
+font-size: 64px;
+
+}
+h1{
+    font-size: 64px;
+    letter-spacing: 0.10em;
+    color: darkolivegreen;
+}
+.imj{
+    
+}
+.top2{
+    height: inherit;
+    width: 300px;
+    float: left;
+   
+font-size: 34px;
+color: darkgoldenrod;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+    font-size: 54px;
+    
+}
+.hhh{
+    position: relative;
+    height: 70px;
+    width: 600px;
+    
+    font-size: 64px;
+    font-weight: bold;
+     margin-left: 800px;
+    padding-left: 80px;
+}
+.h1{
+    background-color: antiquewhite;
+}
+.im img{
+     margin-left: 900px;
+    height: 19px;
+}
+.par p{
+     margin-left: 800px;
+    font-size: 24px;
+}
+.headd{
+    position: relative;
+     height: 60px;
+    width: 600px;
+    font-family: Dancing Script;
+    color: darkgoldenrod;
+    font-weight: bold;
+  font-size: 74px;
+    margin-left: 800px;
+    margin-top: 90px;
+}
+.rec{
+    width: 80%;
+    height: 280px;
+   position: relative;
+    margin-left: 130px;
+}
+.rec1{
+    width: 35%;
+    height: inherit;
+   
+    float: left;
+}
+hr{
+    background-color:  darkolivegreen;
+    position: relative;
+}
+.rec2{
+    width: 60%;
+    height: inherit;
+   
+    float: left;
+}
+legend{
+    font-size: 48px;
+    margin-left: 25px;
+    font-family: Merriweather;
+}
+fieldset{
+    width: 98%;
+    height: 250px;
+    
+}
+fieldset .ppp{
+    padding: 20px;
+    font-size: 24px;
+    color: black;
+}
+bt{
+    width: 100px;
+    height: 30px;
+    border: 2px solid green;
+    background-color: aqua;
+}
+.ppp a{
+    font-size: 34px;
+    background-color: green;
+    color: white;
+}
+.hhhh{
+    width: 78%;
+    height: 400px;
+    margin-left: 110px;
+    
+}
+.ik{
+    margin-left: 1000px;
+    margin-top: -1920px;
+    height:669px;
+ 
+    width: 665px;
+    
+}
+h3{
+    color: grey;
+}
